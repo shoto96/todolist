@@ -90,5 +90,6 @@ Usa Bootstrap + media queries para funcionar bem em celular.
 ---
 
 ## 👨‍💻 Autor
+shoto96
 
 Projeto simples para estudo e prática de front-end.
