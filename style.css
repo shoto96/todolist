@@ -1,0 +1,44 @@
+body {
+  transition: 0.3s;
+}
+
+/* Modo claro */
+.light-mode {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Modo escuro */
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .form-control {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+}
+
+.dark-mode .list-group-item {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+/* Tarefa concluída */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
